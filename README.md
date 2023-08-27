@@ -29,11 +29,12 @@ The Sentiment140 dataset is a compilation of 1.6 million tweets that have been c
 # Project Workflow and Notebook Breakdown
 
 The project is divided into three notebooks:
-#### • [Data Visualization and Cleaning:](https://github.com/lucasaltm/Twitter_Sentiment_Analysis/blob/main/TSA1_Data_Cleaning.ipynb)
+### • [Data Visualization and Cleaning:](https://github.com/lucasaltm/Twitter_Sentiment_Analysis/blob/main/TSA1_Data_Cleaning.ipynb)
 In this initial notebook, the focus lies on preparing and cleaning the data for sentiment analysis. The journey starts with an initial visualization of the data, offering a clear understanding of the dataset before any processing is undertaken. This is followed by a rigorous text pre-processing and cleaning process, which involves:
 
-Removing irrelevant words, known as "stop-words".
-Eliminating punctuation and accented characters.
-Applying "stemming" to reduce words to their root form.
-Excluding non-alphabetic characters.
+- Removing irrelevant words, known as "stop-words".
+- Eliminating punctuation and accented characters.
+- Applying "stemming" to reduce words to their root form.
+- Excluding non-alphabetic characters.
+
 After these steps, the notebook presents a view of the most frequent words, giving an insight into the nature of the content post-cleaning. Finally, the cleaned and processed data is saved in a CSV format, setting the stage for the subsequent stages of the project which involve modeling and analysis.
