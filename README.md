@@ -38,3 +38,17 @@ In this initial notebook, the focus lies on preparing and cleaning the data for 
 - Excluding non-alphabetic characters.
 
 After these steps, the notebook presents a view of the most frequent words, giving an insight into the nature of the content post-cleaning. Finally, the cleaned and processed data is saved in a CSV format, setting the stage for the subsequent stages of the project which involve modeling and analysis.
+
+### • [Word Vectorization:](https://github.com/lucasaltm/Twitter_Sentiment_Analysis/blob/main/TSA2_Vectorization.ipynb)
+
+In the vast world of Natural Language Processing (NLP), transforming textual data into a numerical format is a foundational step. This notebook delves deep into the vectorization aspect of the sentiment analysis project, turning raw tweet text into vectors that can be fed into machine learning algorithms.
+
+The journey begins with the preparation of the dataset, splitting it into training and testing sets, ensuring a robust evaluation process. Following this, several vectorization techniques are explored, each with its unique approach and advantages:
+
+**CountVectorizer:** A simple yet effective method that transforms the text into vectors based on word count.
+
+**TF-IDF Vectorizer:** Going a step beyond mere counting, this method weighs terms based on their importance in the corpus, distinguishing between common and rare terms.
+
+**Word2Vec:** A more advanced technique that captures the semantic meaning of words based on their context. Both Skip-Gram and CBOW models are explored to achieve this
+
+Additionally, a logistic regression model is trained and evaluated as a preliminary step to gauge the effectiveness of the vectorized data. This notebook sets the stage for subsequent modeling and deep analysis, ensuring the data is well-prepared and understood.
