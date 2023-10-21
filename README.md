@@ -52,3 +52,7 @@ The journey begins with the preparation of the dataset, splitting it into traini
 **Word2Vec:** A more advanced technique that captures the semantic meaning of words based on their context. Both Skip-Gram and CBOW models are explored to achieve this
 
 Additionally, a logistic regression model is trained and evaluated as a preliminary step to gauge the effectiveness of the vectorized data. This notebook sets the stage for subsequent modeling and deep analysis, ensuring the data is well-prepared and understood.
+
+### • [Neural Network Modeling:](https://github.com/lucasaltm/Twitter_Sentiment_Analysis/blob/main/TSA3_NN.ipynb)
+
+In this notebook, the focus is on the construction, training, and evaluation of neural networks for sentiment classification. Three different neural network architectures (Basic Feedforward, Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU)) are systematically trained and tested. Various hyperparameters for each architecture are also explored to identify the most effective combination for sentiment analysis. To validate the observed performance differences among these architectures, rigorous statistical tests like ANOVA, t-tests, Kruskal-Wallis, and Mann-Whitney are conducted. Vectorization methods trained in the previous notebook are used to prepare the data. To ensure transparency and reproducibility, MLflow is employed as a central tracking tool, capturing details, metrics, and outcomes of each model iteration.
